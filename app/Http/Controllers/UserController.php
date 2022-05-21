@@ -35,7 +35,7 @@ class UserController extends Controller
      */
     public function all() {
         $result = $this->repository->all();
-        return response()->json($result);
+        return response()->json(['users' => $result]);
     }
 
 }
