@@ -5,6 +5,8 @@ namespace App\Repositories\User;
 interface UserRepositoryInterface
 {
 
-    public function store();
+    public function store(array $attributes);
+
+    public function all();
 
 }

@@ -9,7 +9,7 @@ class User extends Model
 {
     use HasFactory;
 
-    const TABLE = 'user';
+    const TABLE = 'users';
 
     const USER_ID = 'user_id';
     const NAME = 'name';
